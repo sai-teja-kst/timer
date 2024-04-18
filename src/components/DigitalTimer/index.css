@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to left, #cffcf1, #defafe, #ffffff);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bg-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-clock {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png);
+  background-size: cover;
+  height: 90vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bg-fn {
+  height: 90vh;
+  width: 50vw;
+}
+
+.bg-timer {
+  height: 20vh;
+  width: 10vw;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0%;
+}
+
+.timer {
+  color: #00d9f5;
+  font-size: 5vh;
+}
+
+.timer-status {
+  font-size: 3vh;
+}
+
+.bg-fn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-fn-card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.bg-fn-card {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+
+.bg-icon {
+  height: 5vh;
+  width: 2.5vw;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.timer-set-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-timer-value {
+  background-image: linear-gradient(to right, #10d98f, #00d9f5);
+  width: 5vw;
+  font-size: 4vh;
+  border-radius: 5px;
+  height: 5vh;
+  margin: 10px;
+}
+
+.bg-operator {
+  font-size: 4vh;
+  font-weight: 500;
+  padding: 10px;
+}
